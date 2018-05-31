@@ -7,6 +7,6 @@ Exports status and hashrate.
 Example output:
 
 ```
-xmrstark_up{miner="default"} 1
-xmrstark_hashrate{miner="default"} 188.74
+xmrstak_up{miner="default"} 1
+xmrstak_hashrate{miner="default"} 188.74
 ```
