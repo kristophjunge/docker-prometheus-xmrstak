@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  prometheus_xmrstark:
+    container_name: prometheus_xmrstark
+    build: .
+    environment:
+      TEST_MODE: "${TEST_MODE}"
+      MINER_ID: "${MINER_ID}"
+      API_URL: "${API_URL}"
+    ports:
+      - "9209:9209"
